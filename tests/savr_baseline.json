@@ -1,0 +1,119 @@
+{
+  "source_repository": "https://github.com/fanasno/savr-portfoliokollen-testsavr",
+  "source_commit": "41a98cc",
+  "tickers": [
+    "AAPL",
+    "ACWI",
+    "AGG",
+    "BND",
+    "EEM",
+    "EWD",
+    "FLSW",
+    "IEMG",
+    "INVE-B.ST",
+    "IWM",
+    "IYW",
+    "MSFT",
+    "NVDA",
+    "SCHA",
+    "SCHZ",
+    "URTH",
+    "USDSEK=X",
+    "VB",
+    "VGT",
+    "VOLV-B.ST",
+    "VT",
+    "VWO",
+    "XLK"
+  ],
+  "metrics": {
+    "total_value": 430635.427946247,
+    "largest_name": "Technology Select Sector SPDR Fund",
+    "largest_weight_pct": 34.34355616596632,
+    "equity_exposure": 94.97991957376703,
+    "risk_score": 51,
+    "target_risk_score": 44,
+    "hhi": 2586,
+    "top_three_share": 80.10148303995386,
+    "equity_gap": 14.979919573767035,
+    "portfolio_sharpe": 0.01710290607801424,
+    "portfolio_volatility_pct": 12.227844668581312,
+    "portfolio_return_pct": 2.2091316789032933,
+    "portfolio_max_drawdown_pct": -23.22094033017914
+  },
+  "backtests": {
+    "Buy and hold": {
+      "current_value": 9356.175526603274,
+      "return_pct": -6.438244733967258,
+      "rebalance_count": 0
+    },
+    "Månadsvis rebalansering": {
+      "current_value": 9372.67926036198,
+      "return_pct": -6.273207396380198,
+      "rebalance_count": 12
+    },
+    "Kvartalsvis rebalansering": {
+      "current_value": 9368.808343464574,
+      "return_pct": -6.311916565354259,
+      "rebalance_count": 4
+    }
+  },
+  "forecasts": {
+    "Buy and hold": {
+      "median_value": 10147.157920785368,
+      "p10_value": 9112.93679287367,
+      "p90_value": 11059.177771454943,
+      "probability_positive_pct": 58.59375,
+      "rebalance_count": 0
+    },
+    "Månadsvis rebalansering": {
+      "median_value": 10148.142352998217,
+      "p10_value": 9107.262883737269,
+      "p90_value": 11058.33605612344,
+      "probability_positive_pct": 58.59375,
+      "rebalance_count": 2
+    },
+    "Kvartalsvis rebalansering": {
+      "median_value": 10148.371971963175,
+      "p10_value": 9108.693948111655,
+      "p90_value": 11058.017623782722,
+      "probability_positive_pct": 58.59375,
+      "rebalance_count": 1
+    }
+  },
+  "calculation_fingerprints": {
+    "format_sek": "07299367a32af0d1b41748a74d91252f019c239cfad61d2776741408272561bf",
+    "format_decimal_sv": "2913687fcb21c97eee1be380f4d56918f32b41bf285ead7424af69f195a72fab",
+    "format_pct": "040719f393da2e83420855560bd033eb95218beb3234f632637e0a9d1018c426",
+    "format_signed_pct": "1ced6930140f9a0a61d4d78f499b5ab21e54bd0ea0996984547d7460cfbe5cb2",
+    "format_date_sv": "5be5754ff75d6ba6d5daa0037ad8da748fae4ec4dbcaf17b4f702b04334fe71f",
+    "map_volatility_to_risk_level": "e26cd1aa282394428dd50e2cedbcdf97d029cb8ac03228f623c7534f3843d5df",
+    "get_risk_profiles": "defb1b63f3b0268054a91ab0d995629b308c1e3ea865434686ec978170875f95",
+    "get_notification_intervals": "66ca8582c8562879b24a6854182bde7c20effd818aa75372b7a01d33bd099385",
+    "get_mock_backtest_intervals": "51b1d734156919d8608adfc68c1cfd61dc0fdee44026994c7038e537eddc447a",
+    "get_mock_future_horizons": "4366382797866856e1131edab1aee8043d7b999dadb1429a8b498d4544c4738d",
+    "get_mock_rebalance_modes": "e90e2fd71f77cd4617f462e2e5c0ceae2d400ebe5b29dd37eea851216ea7e333",
+    "get_analysis_windows": "b3b6b13be5567199e419c45f00a0e679c15e5e7d29069cf27ee18b8584c0d2d3",
+    "get_risk_preference_defaults": "727f6985ff62d4d105e62f88d5bdb335dcacc00fe56ab4fbb5437fc53f9b129b",
+    "parse_sv_date_input": "f9b1fc2cba4c02696e4bc2a726d1c8d054a13364b5d8da76bbc3f87184fde417",
+    "resolve_input_date": "06857f2270600970304d830d9bd4616ad10711a1106762fe823af1682fab7ade",
+    "get_risk_questionnaire": "a1cf50e9528d6a69625ab3cfdede5f6be5da3c03f1fd2032995273c298dfd181",
+    "calculate_drawdown": "e9df8b4c1ad7b8c1338d37a61877d33109af518b72ab78266dde925b666f9964",
+    "compute_historical_metrics": "d549b66689e3cb6459dca2c923dbe0f4a3e6c44d418a92c7437c2215d66c1a55",
+    "normalize_target_weights": "e34679fff14d4ed2ac4629f214f4705684ee9102c32976625a80721c1ae488be",
+    "build_personal_profile": "8f309b2af70f6ef6e40f25c5bcef2b0e50afb8227a591c8e0916502c326f9dcd",
+    "prepare_portfolio": "1fc5052eae4edf4cd754a9ad7ed49e3f19a143cee0f95ad99cff67ec9142044c",
+    "calculate_metrics": "79f5105f53d848c467ea0a49af31d34b141e897a613567e431e9d2cc24b9fc70",
+    "detect_imbalances": "fdf980a8c9d7d9c841d15a73991b6636bf34b4357c32f26b12f2c4c978553ef1",
+    "build_trade_plan": "322b0d89757a3f677eb589485ee6b151b8ce8b0a6ede09b4c82e7240c3e29c3e",
+    "build_mock_allocation": "b3d7d4a049fb217db96867d16d0c8bf2d6205760abd5f9eef5a2bcafecc7a313",
+    "get_rebalance_dates": "bd02e69c8f3b60c06f032a9ded4508ec763b67d9168304317b1518c76e32d30f",
+    "simulate_historical_rebalanced_values": "3dadc94588f69182ab44a95f062ce57eb4297b67b658e714f44a6024fde8e852",
+    "simulate_future_portfolio_paths": "398869af40f0c83b8ad9a018e9fc9ad3f038dbf2ca1b166b8c724e3358ceef93",
+    "simulate_mock_backtest": "0869151bdee458012dfbacfd973cf566653fc5695d0776f2ddb82bfffe14c751",
+    "simulate_mock_future": "07693885eb5fee510e236ee95599c841c5df7c45bc3ce3a0cf002965d236723d",
+    "build_watch_notifications": "d264f01f67ea8dd417f5e3b61656238308ce8e7d3ea1d7878a4946fd1cb9be65",
+    "build_rebalance_notification": "9f3394e2eeba29fa311d1a4ca4d0d8a931a1a88a8f41d849c9b2474df9a03614",
+    "simulate_contribution": "ceb9e12bd2eea402c4c2abbc78ec269ee6f7590b2d178d29d5916b7fdfe2a0dd"
+  }
+}
